@@ -1,6 +1,6 @@
 module github.com/ma-miyazaki/go-neo4j-template
 
-go 1.14
+go 1.15
 
 require (
 	github.com/neo4j/neo4j-go-driver v1.8.2

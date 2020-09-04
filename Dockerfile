@@ -1,4 +1,4 @@
-FROM golang:1.14.1-alpine
+FROM golang:1.15.1-alpine3.12
 
 RUN apk update && \
   apk add --no-cache gcc libc-dev curl git pkgconfig openssl && \
