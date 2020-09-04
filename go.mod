@@ -1,4 +1,4 @@
-module github.com/soraniwa/covid19-neo4j
+module github.com/ma-miyazaki/go-neo4j-template
 
 go 1.14
 

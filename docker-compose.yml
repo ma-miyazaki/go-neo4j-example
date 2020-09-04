@@ -1,18 +1,18 @@
 version: '3'
-services: 
+services:
   go:
     build: ./
     container_name: go
-    volumes: 
+    volumes:
       - .:/app
     tty: true
   neo4j:
     image: neo4j:4.0.3
     container_name: neo4j
-    volumes: 
+    volumes:
       - ./neo4j/data:/data
     environment:
       NEO4J_AUTH: none
-    ports: 
+    ports:
       - 7474:7474
       - 7687:7687
