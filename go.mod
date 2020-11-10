@@ -1,4 +1,4 @@
-module github.com/ma-miyazaki/go-neo4j-template
+module github.com/ma-miyazaki/go-neo4j-example
 
 go 1.15
 

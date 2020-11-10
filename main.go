@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/ma-miyazaki/go-neo4j-template/internal"
+	"github.com/ma-miyazaki/go-neo4j-example/internal"
 )
 
 func main() {
